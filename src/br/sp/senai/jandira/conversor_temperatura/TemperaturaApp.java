@@ -4,6 +4,8 @@ import br.sp.senai.jandira.conversor_temperatura.gui.TelaConversor;
 
 public class TemperaturaApp {
 	public static void main(String[] args) {
+		
+		// irá chamar a tela
 		TelaConversor tela = new TelaConversor();
 		tela.criarTelaConversor();
 	}
